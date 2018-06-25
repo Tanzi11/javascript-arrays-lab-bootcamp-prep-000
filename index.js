@@ -2,6 +2,7 @@ const app = "I don't do much."
 var kittens = ['Milo', 'Otis', 'Garfield'];
 function destructivelyAppendKitten (name) {
   kittens.push(name);
+<<<<<<< HEAD
 }
 var kittens = ['Milo', 'Otis', 'Garfield'];
 function destructivelyPrependKitten(name) {
@@ -34,4 +35,6 @@ var kittens = ['Milo', 'Otis', 'Garfield'];
 function removeFirstKitten() {
   var newKittens = kittens.slice(1);
   return newKittens;
+=======
+>>>>>>> 9b8e0c48b86739e366689b992e02418e59460251
 }
